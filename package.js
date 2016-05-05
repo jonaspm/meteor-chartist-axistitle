@@ -17,7 +17,7 @@ Npm.depends({
 Package.onUse(function(api) {
 	api.versionsFrom('1.2.1');
 	api.use('ecmascript');
-	api.use('mfpierre:chartist-js','client')
+	api.use('mfpierre:chartist-js@1.6.2','client')
 	api.addFiles('chartist-axistitle.js', 'client');
 });
 
