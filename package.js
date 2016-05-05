@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'jonaspm:chartist-axistitle',
-	version: '0.0.1',
+	version: '0.0.2',
 	// Brief, one-line summary of the package.
 	summary: 'Chartist plugin AxisTitle for using with mfpierre:chartist-js',
 	// URL to the Git repository containing the source code for this package.
