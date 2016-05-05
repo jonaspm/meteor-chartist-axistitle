@@ -2,7 +2,7 @@ Package.describe({
 	name: 'jonaspm:chartist-axistitle',
 	version: '0.0.1',
 	// Brief, one-line summary of the package.
-	summary: 'Chartist plugin AxisTitle for using with angular-chartist',
+	summary: 'Chartist plugin AxisTitle for using with mfpierre:chartist-js',
 	// URL to the Git repository containing the source code for this package.
 	git: 'https://github.com/jonaspm/meteor-chartist-axistitle.git',
 	// By default, Meteor will default to using README.md for documentation.
@@ -16,7 +16,6 @@ Npm.depends({
 
 Package.onUse(function(api) {
 	api.versionsFrom('1.2.1');
-	api.use('ecmascript');
 	api.use('mfpierre:chartist-js@1.6.2','client')
 	api.addFiles('chartist-axistitle.js', 'client');
 });
