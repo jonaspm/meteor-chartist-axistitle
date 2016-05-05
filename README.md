@@ -1,8 +1,10 @@
 # meteor-chartist-axistitle
 This is a package just to allow use of chartist-axis-title plugin with guihash:angular-chartist & Meteor
 
+*No CSS included*
+
 ## Usage
-  meteor add jonaspm:chartist-axistitle
+	meteor add jonaspm:chartist-axistitle
 
 ### Example
 	$scope.options = {
