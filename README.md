@@ -10,31 +10,15 @@ mfpierre:chartist-js & Meteor
 	meteor add jonaspm:chartist-axistitle
 
 ### Example
+```js
 	$scope.options = {
       plugins: [
 			Chartist.plugins.ctAxisTitle({
-                axisX: {
-                    axisTitle: 'Time (mins)',
-                    axisClass: 'ct-axis-title',
-                    offset: {
-                        x: 0,
-                        y: 40
-                    },
-                    textAnchor: 'middle'
-                },
-                axisY: {
-                    axisTitle: 'Goals',
-                    axisClass: 'ct-axis-title',
-                    offset: {
-                        x: 0,
-						y: -1
-                    },
-                    flipTitle: false
-                }
-            })
+			// Write your settings here
+			})
         ]
 	};
-
+```
 
 ## Contributing
 Feel free to PR or report issues.
