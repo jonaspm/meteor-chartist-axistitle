@@ -11,13 +11,13 @@ mfpierre:chartist-js & Meteor
 
 ### Example
 ```js
-	$scope.options = {
-      plugins: [
+$scope.options = {
+	plugins: [
 			Chartist.plugins.ctAxisTitle({
 			// Write your settings here
 			})
-        ]
-	};
+	]
+};
 ```
 
 ## Contributing
